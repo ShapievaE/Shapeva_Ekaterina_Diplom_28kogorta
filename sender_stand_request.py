@@ -2,7 +2,7 @@ import configuration
 
 import data
 
-import requ
+import requests
 
 def post_new_body(body):
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_ORDER_PATH,
